@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+    <menu>
+        <segmentify_menu translate="title" module="segmentify_engine">
+            <title>Segmentify</title>
+            <sort_order>9999</sort_order>
+            <action>sengine/index/index</action>
+        </segmentify_menu>
+    </menu>
+</config>

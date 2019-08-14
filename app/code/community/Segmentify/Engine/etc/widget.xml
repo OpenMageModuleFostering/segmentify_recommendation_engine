@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<widgets>
+    <segmentify_views type="segmentify_engine/view" translate="name description" module="segmentify_engine">
+        <name>Segmentify Views</name>
+        <description>Allows to add view on your page</description>
+        <parameters>
+            <view_option>
+                <label>Views</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <source_model>segmentify_engine/views</source_model>
+            </view_option>
+        </parameters>
+    </segmentify_views>
+</widgets>

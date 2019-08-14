@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>Segmentify_Recommendation_Engine</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license>Custom Licence</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Segmentify for Magento is best conversion optimization application with product recommendation, personalization and real-time analytics capabilities. Segmentify's AI based engine automatically understands user behaviour on your online store and takes actions to increase your sales.</summary>
+    <description>Segmentify is a conversion optimization tool that helps online stores to convert their visitors into actual customers by making personalized recommendations, and offering business insight with real-time analytics.&#xD;
+&#xD;
+With "Segmentify for Magento" extension, you will have the power to offer your visitors personalized product recommendations. Look &amp; feel and products of these recommendation widgets can be adjusted to your needs under Magento admin panel by only a few clicks.&#xD;
+&#xD;
+After installing extension, you can offer personalized product recommendations at your "Home Page", "Product Page", "Category Page", "Basket Page", "Search Page", "404 Page" and easily adjust them. Reports showing impressions, clicks, purchases and conversion rates of widgets can be also tracked under admin panel.</description>
+    <notes>&#x2022; Initial release of Segmentify for Magento&#xD;
+&#x2022; Includes 6 predefined product recommendation widgets&#xD;
+&#x2022; Recommendation widgets can be adjusted and tracked under admin panel&#xD;
+&#x2022; Requires an existing Segmentify account or you can create a new account</notes>
+    <authors><author><name>Segmentify</name><user>Segmentify</user><email>info@segmentify.com</email></author></authors>
+    <date>2016-12-01</date>
+    <time>09:18:36</time>
+    <contents><target name="magecommunity"><dir name="Segmentify"><dir name="Engine"><dir name="Block"><dir name="Adminhtml"><dir name="Campaign"><dir name="Edit"><file name="Form.php" hash="42d165684c847c513ded21c3f85a1af8"/></dir><file name="Edit.php" hash="3923d32ed6fc4d3a69df635ca9a7768f"/><file name="Grid.php" hash="7bdcf0905e5365e1fab26ba368857a7f"/></dir><file name="Campaign.php" hash="4053fcf02b18018f29cc6c604995b993"/><dir name="Renderer"><file name="Actionlink.php" hash="4b892f6af0e0d9c3dee5cfead417b3d8"/></dir><file name="Report.php" hash="e045323136b95dc6c896b478f22bc05a"/></dir><file name="View.php" hash="c486cfda779454701c82d6b5abc3744f"/></dir><dir name="controllers"><file name="AccountController.php" hash="edd00cceec4a437034a63ab3fa172bcf"/><file name="IndexController.php" hash="bdf57cff7f16a932508ddfd6d00faf0c"/></dir><dir name="etc"><file name="adminhtml.xml" hash="0cbd64bc397c89a65df369d0cd8e139b"/><file name="config.xml" hash="15cf498fbd05aad0b9c8142f861632dd"/><file name="widget.xml" hash="e56cd9bb9f028888f5c6a709dcf847ec"/></dir><dir name="Helper"><file name="Data.php" hash="2fc065d111d96967bd7b79e2a8c59ab3"/></dir><dir name="Model"><file name="Adapter.php" hash="13163e2da200458e12c0b42da5eb9e2b"/><file name="Campaign.php" hash="b5168e6ad4a66a2a284e054555d9e521"/><file name="Connect.php" hash="071df8184e4c472529d4000d1fea321a"/><file name="Licence.php" hash="6c95760c8c76c104f2343941eebc19ba"/><dir name="Mysql4"><dir name="Campaign"><file name="Collection.php" hash="4e61bcf3ad3489ac97ae923360473dca"/></dir><file name="Campaign.php" hash="e5385dc373f43aa14899b156332a94f8"/><dir name="Connect"><file name="Collection.php" hash="7b1ba710a345ebad4d4fe45f87ad776a"/></dir><file name="Connect.php" hash="7b72c63d4b7be91dffbbdb0cf84969b2"/></dir><file name="Observer.php" hash="9061f96d9df5a28977c9f8044e2d910e"/><file name="TrendifyAdapter.php" hash="431170bf840bb6c020a5540e83efcd7c"/><file name="Views.php" hash="9eecfebf8e431264572f821c3327d643"/></dir><dir name="sql"><dir name="segmentify_engine_setup"><file name="mysql4-data-install-0.1.0.php" hash="da06d4e9ccfb3a48c46f91292aa7623c"/><file name="mysql4-install-0.1.0.php" hash="414ba65fdbbd8f8fd74997b61e310966"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="segmentify.xml" hash="448dda651946b36599fcc6eed5cc8d61"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Segmentify_Engine.xml" hash="2d61475952f07a5e40d726da1b336063"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.6.0</min><max>7.0.12</max></php></required></dependencies>
+</package>
