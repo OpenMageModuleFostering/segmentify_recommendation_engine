@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Segmentify for Magento is best conversion optimization application with product recommendation, personalization and real-time analytics capabilities. Segmentify's AI based engine automatically understands user behaviour on your online store and takes actions to increase your sales.
